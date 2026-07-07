@@ -57,6 +57,6 @@ Platform that spawns, orchestrates, and improves agents:
 ---
 
 📍 Harare, Zimbabwe
-🔗 [wqr.co.zw](https://wqr.co.zw) · [LinkedIn](https://linkedin.com/in/kmagwenzi)
+🔗 [wqr.co.zw](https://wqr.co.zw) · [LinkedIn](https://www.linkedin.com/in/kudakwashe-magwenzi-84a164168/)
 
 *Built in Zimbabwe. For founders who refuse to work at normal speed.*
