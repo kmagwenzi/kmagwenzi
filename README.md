@@ -1,62 +1,50 @@
 # Kudakwashe Magwenzi
 
-**Product Engineer building AI platforms for African businesses.**
+**AI Agent Developer.** I build production AI agents and full-stack systems for African businesses: WhatsApp commerce, self-improving memory, and real payments. Open to freelance and remote work.
 
-I build AI platforms that solve real problems for African businesses — WhatsApp AI assistants, self-improving execution systems, and payment processing for Zimbabwean SMEs. No website needed. Just WhatsApp.
+## What I'm building
 
----
+### WQR 2.0 — WhatsApp AI Commerce Agent (live in Zimbabwe)
+- 7-intent LLM classifier (GLM) routing orders, tracking, FAQ, RAG, and handoff
+- Live inventory pricing (single pricing authority) feeding every quote
+- Paynow and EcoCash payments, live: real ZWG payments clearing with SHA512-verified webhooks, idempotent processing, and a full audit log
+- Branded PDF invoices, multi-item quoting verified end to end
+- Spring Boot quote API, n8n, PostgreSQL, Redis, Docker
 
-## What I'm Building
-
-### WQR 2.0 — WhatsApp AI + Payments
-WhatsApp AI assistant for Zimbabwean SMEs with:
-- **6-intent LLM classifier** — DeepSeek-powered, routes between FAQ, orders, RAG, human handoff, easy Q&A, and fallback
-- **Two-phase async responses** — Instant acknowledgment + background delivery for long-running queries
-- **RAG knowledge retrieval** — PGVector + Ollama embeddings
-- **Paynow payment integration** — SHA512 validated, order upsert, WhatsApp receipt
-- **Order tracking** — Create and query orders via WhatsApp
-- **Human handoff** — Dual-alert escalation (user + admin)
-- **Chat memory** — Postgres-backed conversation persistence
-- **Docker Compose** — n8n + PostgreSQL + PGVector + ngrok
-
-### AI-Suplex — Self-Improving Execution System
-File-first memory stack that makes every AI session smarter:
-- **3-Layer Memory** — Episodic, Semantic, Procedural
-- **3lm CLI** — 7 commands: start, end, learn, promote, revise, index, status
-- **42 memory files** across 5 layers
-- **12 Prompt Patterns** — copy-paste into any AI chat
-- **Live on Selar** — Core (free) + 7-7-7 Edition ($29)
+### AI-Suplex 7-7-7 — Self-Improving Execution OS (open source)
+- 3-layer agentic memory (Episodic, Semantic, Procedural) managed by the 3lm CLI
+- Knowledge graph and session-context generation
+- "Each new session starts smarter than the last."
+- Core free, 7-7-7 edition $29 on Selar
 
 ### Agents Terminal — AI Agent Orchestration
-Platform that spawns, orchestrates, and improves agents:
-- Deep Agents (LangGraph) integration
-- Agent Improvement Pipeline — agents compound via Saturday promote
-- Fireworks AI (AMD) powered inference
+- Multi-agent platform with WQR as the first deployed agent
+- Weekly review that proposes agent upgrades with human approval
+- AMD Developer Hackathon ACT II (Unicorn Track) certificate holder
 
----
+### Portfolio projects
+- [pmi-ict-solutions](https://github.com/kmagwenzi/pmi-ict-solutions): corporate website, Webflow export on Netlify
+- [standard-ecommerce](https://github.com/kmagwenzi/standard-ecommerce): Angular 15 + Spring Boot + MySQL full-stack e-commerce
 
-## Current Focus
+## Current focus
 
-- **AMD Developer Hackathon ACT II** — Unicorn Track
-- **POTRAZ AI4I Challenge** — Track 3, $80K grant proposal
-- **WQR Payment Engine** — 8-phase WhatsApp commerce pipeline
+- WQR harvest: first paying SME by Sep 8, Paynow live, outreach firing
+- AI-Suplex 7-7-7 open-source release
+- Freelance and remote AI agent development
 
----
-
-## Tech Stack
+## Tech stack
 
 | Domain | Tools |
-|--------|-------|
-| AI | DeepSeek, Ollama, PGVector, LangGraph |
-| Orchestration | n8n, Docker, Twilio, ngrok |
-| Backend | PostgreSQL, Supabase, Node.js |
-| Frontend | Angular, React, TypeScript, Next.js |
+|---|---|
+| AI | LangChain, DeepSeek, GLM, Gemini, RAG, Graph RAG |
+| Backend | Java (Spring Boot), Node.js, PostgreSQL, Redis |
+| Frontend | Next.js, React, Angular, TypeScript |
+| Orchestration | n8n, Docker, Twilio WhatsApp API |
 | Payments | Paynow, EcoCash |
-| Cloud | AMD Developer Cloud |
 
----
+## Contact
 
-📍 Harare, Zimbabwe
-🔗 [wqr.co.zw](https://wqr.co.zw) · [LinkedIn](https://www.linkedin.com/in/kudakwashe-magwenzi-84a164168/)
+📍 Harare, Zimbabwe, remote-first
+🔗 [wqr.co.zw](https://wqr.co.zw) · [LinkedIn](https://linkedin.com/in/kudakwashe-magwenzi) · [Selar](https://selar.com/270lq55ke0)
 
 *Built in Zimbabwe. For founders who refuse to work at normal speed.*
