@@ -16,13 +16,17 @@
 - Knowledge graph and session-context generation
 - "Each new session starts smarter than the last."
 - Core free, 7-7-7 edition $29 on Selar
+- Repo: github.com/kmagwenzi/ai-suplex
 
-### Agents Terminal — AI Agent Orchestration
-- Multi-agent platform with WQR as the first deployed agent
-- Weekly review that proposes agent upgrades with human approval
-- AMD Developer Hackathon ACT II (Unicorn Track) certificate holder
+### Agents Terminal V3 — AI Agent Orchestration (open source)
+- Multi-agent platform that runs AI sub-agents as a team, with WQR as the first deployed agent
+- Weekly review loop that proposes upgrades with human approval
+- File-system first, markdown-native, git-tracked
+- Repo: github.com/kmagwenzi/agents-terminal
 
 ### Portfolio projects
+- [agents-terminal](https://github.com/kmagwenzi/agents-terminal): AI agent orchestration platform (MIT)
+- [ai-suplex](https://github.com/kmagwenzi/ai-suplex): self-improving execution OS
 - [pmi-ict-solutions](https://github.com/kmagwenzi/pmi-ict-solutions): corporate website, Webflow export on Netlify
 - [standard-ecommerce](https://github.com/kmagwenzi/standard-ecommerce): Angular 15 + Spring Boot + MySQL full-stack e-commerce
 
