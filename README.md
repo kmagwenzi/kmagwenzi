@@ -1,54 +1,61 @@
 # Kudakwashe Magwenzi
 
-**AI Agent Developer.** I build production AI agents and full-stack systems for African businesses: WhatsApp commerce, self-improving memory, and real payments. Open to freelance and remote work.
+**I build production AI systems for African businesses — and I open-source the chassis.**
 
-## What I'm building
+AI agent developer in Harare. I ship end-to-end: WhatsApp commerce agents, self-improving memory, real payment integrations, and the tooling that makes agents get better every week. Open to freelance and remote.
 
-### WQR 2.0 — WhatsApp AI Commerce Agent (live in Zimbabwe)
-- 7-intent LLM classifier (GLM) routing orders, tracking, FAQ, RAG, and handoff
-- Live inventory pricing (single pricing authority) feeding every quote
-- Paynow and EcoCash payments, live: real ZWG payments clearing with SHA512-verified webhooks, idempotent processing, and a full audit log
-- Branded PDF invoices, multi-item quoting verified end to end
-- Spring Boot quote API, n8n, PostgreSQL, Redis, Docker
+---
 
-### AI-Suplex 7-7-7 — Self-Improving Execution OS (open source)
-- 3-layer agentic memory (Episodic, Semantic, Procedural) managed by the 3lm CLI
-- Knowledge graph and session-context generation
-- "Each new session starts smarter than the last."
-- Core free, 7-7-7 edition $29 on Selar
-- Repo: github.com/kmagwenzi/ai-suplex
+## 🚀 Live proof
 
-### Agents Terminal V3 — AI Agent Orchestration (open source)
-- Multi-agent platform that runs AI sub-agents as a team, with WQR as the first deployed agent
-- Weekly review loop that proposes upgrades with human approval
-- File-system first, markdown-native, git-tracked
-- Repo: github.com/kmagwenzi/agents-terminal
+**WQR — WhatsApp AI Commerce Agent** · [wqr.co.zw](https://wqr.co.zw)
+A LangChain agent that runs orders end-to-end over WhatsApp: 7-intent classification, live inventory pricing, quotes, PDF invoices, and Paynow / EcoCash payment links. Integration live, first settlement pending.
 
-### Portfolio projects
-- [agents-terminal](https://github.com/kmagwenzi/agents-terminal): AI agent orchestration platform (MIT)
-- [ai-suplex](https://github.com/kmagwenzi/ai-suplex): self-improving execution OS
-- [pmi-ict-solutions](https://github.com/kmagwenzi/pmi-ict-solutions): corporate website, Webflow export on Netlify
-- [standard-ecommerce](https://github.com/kmagwenzi/standard-ecommerce): Angular 15 + Spring Boot + MySQL full-stack e-commerce
+**AI-Suplex 7-7-7 — self-improving execution OS** · [repo](https://github.com/kmagwenzi/ai-suplex)
+File-first, markdown-native framework with a 3-layer memory stack, a knowledge graph, and a scored promotion gate. North star: each new session starts smarter than the last.
 
-## Current focus
+**dsh-ai-suplex — the execution loop as a DeepSeek Harness plugin** · [repo](https://github.com/kmagwenzi/dsh-ai-suplex)
+The same 7-7-7 loop, shipped as a free plugin for DeepSeek Harness. I build in ecosystems, not just in isolation.
 
-- WQR harvest: first paying SME by Sep 8, Paynow live, outreach firing
-- AI-Suplex 7-7-7 open-source release
-- Freelance and remote AI agent development
+---
 
-## Tech stack
+## 🧭 What else I've built
 
-| Domain | Tools |
+| Repo | What it is |
 |---|---|
-| AI | LangChain, DeepSeek, GLM, Gemini, RAG, Graph RAG |
-| Backend | Java (Spring Boot), Node.js, PostgreSQL, Redis |
-| Frontend | Next.js, React, Angular, TypeScript |
-| Orchestration | n8n, Docker, Twilio WhatsApp API |
-| Payments | Paynow, EcoCash |
+| [ai-suplex](https://github.com/kmagwenzi/ai-suplex) | self-improving execution framework (MIT) |
+| [dsh-ai-suplex](https://github.com/kmagwenzi/dsh-ai-suplex) | the 7-7-7 loop as a dsh plugin (MIT) |
+| [wqr-website](https://github.com/kmagwenzi/wqr-website) | the WQR landing page |
+| [ai-suplex-labs](https://github.com/kmagwenzi/ai-suplex-labs) | the company site — live at ai-suplex.co.zw |
+| [ai-suplex-ultra-preview](https://github.com/kmagwenzi/ai-suplex-ultra-preview) | Ultra Edition preview |
+| [amd-hackathon-act-ii](https://github.com/kmagwenzi/amd-hackathon-act-ii) | AMD Developer Hackathon (Unicorn Track) — certificate holder |
 
-## Contact
+---
 
-📍 Harare, Zimbabwe, remote-first
-🔗 [wqr.co.zw](https://wqr.co.zw) · [LinkedIn](https://linkedin.com/in/kudakwashe-magwenzi) · [Selar](https://selar.com/270lq55ke0)
+## 🔍 The story — how I actually work
+
+For three weeks I thought a payment integration was live. It wasn't. The loop was green end-to-end, but the transactions were simulated — and I diagnosed it down to a single status string: **status=Ok** is a response value, not a live switch.
+
+That's the level of verification I bring: I don't trust a green screen; I read the vendor's own docs and prove the money actually moved.
+
+---
+
+## 🛠 Tech
+
+- **AI:** LangChain · DeepSeek · GLM · Gemini · RAG · Graph RAG
+- **Backend:** Java (Spring Boot) · Node.js · PostgreSQL · Redis
+- **Frontend:** Next.js · React · Angular · TypeScript
+- **Orchestration:** n8n · Docker · Twilio WhatsApp API
+- **Payments:** Paynow · EcoCash
+
+---
+
+## 🤝 Work with me
+
+Open to freelance and remote roles — AI agents, RAG systems, WhatsApp commerce, and agent memory.
+
+- **LinkedIn:** [linkedin.com/in/kudakwashe-magwenzi](https://linkedin.com/in/kudakwashe-magwenzi)
+- **Site:** [ai-suplex.co.zw](https://ai-suplex.co.zw)
+- **Store:** [selar.com/270lq55ke0](https://selar.com/270lq55ke0)
 
 *Built in Zimbabwe. For founders who refuse to work at normal speed.*
