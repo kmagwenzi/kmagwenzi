@@ -29,6 +29,7 @@ The same 7-7-7 loop, shipped as a free plugin for DeepSeek Harness. I build in e
 | [ai-suplex-labs](https://github.com/kmagwenzi/ai-suplex-labs) | the company site — live at ai-suplex.co.zw |
 | [ai-suplex-ultra-preview](https://github.com/kmagwenzi/ai-suplex-ultra-preview) | Ultra Edition preview |
 | [amd-hackathon-act-ii](https://github.com/kmagwenzi/amd-hackathon-act-ii) | AMD Developer Hackathon (Unicorn Track) — certificate holder |
+| [Agents-Terminal-V3](https://github.com/kmagwenzi/Agents-Terminal-V3) | AI agent orchestration platform — the AMD Unicorn build, now open source |
 
 ---
 
